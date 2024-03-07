@@ -1,0 +1,33 @@
+/* ■■■■ muuriのスタイルに関して ■■■■ */
+/* https://www.npmjs.com/package/muuri#-4-add-the-styles */
+
+/* gridにoverflow: auto;やoverflow: scroll;を絶対に設定してはいけない。auto/scrollオーバーフロー値を設定するには、必ずラッパー要素を使用する */
+/* gridは必ずpositionにする。relative、absolute、fixedのいずれか */
+/* itemにはCSSのトランジションやアニメーションを適用してはいけない。ただし、gridにトランジションを適用することはできる */
+
+/* 【注意】muuriの「grid」は muuri-reactの「MuuriComponent(.muuriクラス)」に該当する */
+
+/* ■■■■ muuri-reactのスタイルに関して ■■■■ */
+/* https://paol-imi.github.io/muuri-react/docs/main-concepts/style-rules */
+
+/* MuuriComponent要素は、CSSのpositionプロパティがrelative、absolute、またはfixedに設定されていることを意味する「positioned」でなければなりません。位置が指定されていない場合、デフォルトは相対位置です。 */
+
+/* Item（外側）要素は、CSSのpositionをabsoluteに設定し、displayプロパティをblockに設定する必要があり、これらのプロパティはMuuriComponentによって設定されます。 */
+
+.item {
+  z-index: 1;
+}
+.item.muuri-item-dragging {
+  z-index: 3;
+}
+.item.muuri-item-releasing {
+  z-index: 2;
+}
+.item.muuri-item-hidden {
+  z-index: 0;
+}
+.item-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

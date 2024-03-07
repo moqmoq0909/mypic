@@ -1,0 +1,179 @@
+{
+  "data": [
+    {
+      "edit_history_tweet_ids": ["1737633231824916668"],
+      "attachments": { "media_keys": ["3/1737633203803021312"] },
+      "id": "1737633231824916668",
+      "text": "朗報！ CSSの:has()疑似クラスがすべてのブラウザにサポートされました、:has()疑似クラスの便利な使い方のまとめ\n\nhttps://t.co/VaJzlQ3CaJ https://t.co/Q3N5b7BDyk"
+    },
+    {
+      "edit_history_tweet_ids": ["1737044348016144753"],
+      "attachments": {
+        "media_keys": [
+          "3/1737044338876751872",
+          "3/1737044338872627200",
+          "3/1737044338855821312",
+          "7/1737044338860077056"
+        ]
+      },
+      "id": "1737044348016144753",
+      "text": "「Figmaを使ったLottieアニメーションの作成方法」を記事にまとめました！\n\nFigmaのプロトタイプ機能を使えば、だれでも簡単かつ無料でLottieを作成できます。具体的な手順や注意すべきポイント、Figmaで作るメリットなども解説しています✍️\n\nぜひお役立てください！\uD83C\uDF89\nhttps://t.co/caKPgYmcGp https://t.co/LRBskUZPgv"
+    },
+    {
+      "edit_history_tweet_ids": ["1735283561031451007"],
+      "attachments": { "media_keys": ["3/1735283554089943040"] },
+      "id": "1735283561031451007",
+      "text": "『全部を破壊するレポ』(1/4)\n #科学のルポ https://t.co/FpeFqgq1m2"
+    },
+    {
+      "edit_history_tweet_ids": ["1735238206189375663"],
+      "attachments": { "media_keys": ["7/1735216154363473920"] },
+      "id": "1735238206189375663",
+      "text": "Time-saving radio button component in Figma \uD83D\uDD18 https://t.co/DRtyP5mdys"
+    },
+    {
+      "edit_history_tweet_ids": ["1735131543369302433"],
+      "attachments": {
+        "media_keys": [
+          "13/1735131459151892480",
+          "3/1735131459097403392",
+          "3/1735131459097378816"
+        ]
+      },
+      "id": "1735131543369302433",
+      "text": "原宿にある「スポンティーニ」は、イタリアのミラノに本店を構える、ユニークなピザ専門店。\nオープン時にはなかった「Wモッツァレラチーズ 1000円」は、その名のとおりトロトロなチーズが倍増されてて、もはやチーズに埋もれたピザ…！\nもっちり分厚くて1枚が巨大なので、食べごたえもバッチリだよ！ https://t.co/yi9F3L6FqB"
+    }
+  ],
+  "includes": {
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/GB1QMUaaYAAUYL-.png",
+        "media_key": "3/1737633203803021312",
+        "type": "photo"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/GBs4n3naIAAw0GC.jpg",
+        "media_key": "3/1737044338876751872",
+        "type": "photo"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/GBs4n3mbMAAP5Ya.jpg",
+        "media_key": "3/1737044338872627200",
+        "type": "photo"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/GBs4n3iawAAeVTP.jpg",
+        "media_key": "3/1737044338855821312",
+        "type": "photo"
+      },
+      {
+        "duration_ms": 1366,
+        "preview_image_url": "https://pbs.twimg.com/ext_tw_video_thumb/1737044338860077056/pu/img/nczGPT8m4TPOuFvD.jpg",
+        "media_key": "7/1737044338860077056",
+        "type": "video",
+        "variants": [
+          {
+            "bit_rate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/ext_tw_video/1737044338860077056/pu/vid/avc1/480x270/PUtDENec7Ht0h34-.mp4?tag=12"
+          },
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/ext_tw_video/1737044338860077056/pu/vid/avc1/640x360/Q6kwmIGiwZNERPN-.mp4?tag=12"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/ext_tw_video/1737044338860077056/pu/vid/avc1/1280x720/t9tw550LgU2wcIbe.mp4?tag=12"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/ext_tw_video/1737044338860077056/pu/pl/ZXdCLuGqZXqNvsmP.m3u8?tag=12&container=fmp4"
+          }
+        ],
+        "public_metrics": { "view_count": 11628 }
+      },
+      {
+        "url": "https://pbs.twimg.com/media/GBT3MtIbwAAFA8h.jpg",
+        "media_key": "3/1735283554089943040",
+        "type": "photo"
+      },
+      {
+        "duration_ms": 23650,
+        "preview_image_url": "https://pbs.twimg.com/ext_tw_video_thumb/1735216154363473920/pu/img/pzbwyEnZGEwf3mK9.jpg",
+        "media_key": "7/1735216154363473920",
+        "type": "video",
+        "variants": [
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/ext_tw_video/1735216154363473920/pu/vid/avc1/540x540/nnoBHKZCcCeBKYrw.mp4?tag=14"
+          },
+          {
+            "bit_rate": 8768000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/ext_tw_video/1735216154363473920/pu/vid/avc1/1080x1080/ljUixyP-hdTFvLqO.mp4?tag=14"
+          },
+          {
+            "bit_rate": 1280000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/ext_tw_video/1735216154363473920/pu/vid/avc1/720x720/c8dzx3QSAth39ORQ.mp4?tag=14"
+          },
+          {
+            "bit_rate": 432000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/ext_tw_video/1735216154363473920/pu/vid/avc1/320x320/o6rY8c-l9tGzco1I.mp4?tag=14"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/ext_tw_video/1735216154363473920/pu/pl/11QsRvPvUfzyLSzE.m3u8?tag=14&container=fmp4"
+          }
+        ],
+        "public_metrics": { "view_count": 6580 }
+      },
+      {
+        "duration_ms": 24305,
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/1735131459151892480/img/nwEAcO5nQ7HmH2pd.jpg",
+        "media_key": "13/1735131459151892480",
+        "type": "video",
+        "variants": [
+          {
+            "bit_rate": 632000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/1735131459151892480/vid/avc1/320x568/xoANppcvXrRtA9zI.mp4?tag=14"
+          },
+          {
+            "bit_rate": 950000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/1735131459151892480/vid/avc1/480x852/oYXbXM9I9yXVxVVR.mp4?tag=14"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/1735131459151892480/vid/avc1/720x1280/L0_h2V0LY404Cqeb.mp4?tag=14"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/1735131459151892480/pl/SmpnoPqjVv022F2Y.m3u8?tag=14&container=fmp4"
+          }
+        ],
+        "public_metrics": { "view_count": 1305659 }
+      },
+      {
+        "url": "https://pbs.twimg.com/media/GBRs3nIbIAAgMr3.jpg",
+        "media_key": "3/1735131459097403392",
+        "type": "photo"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/GBRs3nIawAANV4c.jpg",
+        "media_key": "3/1735131459097378816",
+        "type": "photo"
+      }
+    ]
+  },
+  "meta": {
+    "result_count": 5,
+    "next_token": "7140dibdnow9c7btw483gv27gm4de0jrab8naz39l1tfa"
+  }
+}

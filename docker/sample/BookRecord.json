@@ -1,0 +1,76 @@
+[
+  {
+    "bookId": 1,
+    "bookKey": "book_1",
+    "bookName": null,
+    "bookText": "ツイート内容など",
+    "createdAt": "2024-02-11T16:19:10Z",
+    "creatorId": 5,
+    "hasRead": false,
+    "images": [
+      {
+        "imageId": 1,
+        "imageKey": "xxx",
+        "imageName": "01",
+        "imageType": "image",
+        "imageUrl": "xxx.com"
+      },
+      {
+        "imageId": 2,
+        "imageKey": "yyy",
+        "imageName": "02",
+        "imageType": "video",
+        "imageUrl": "yyy.com"
+      }
+    ],
+    "mediaType": "comic",
+    "updatedAt": "2024-02-11T16:19:10Z"
+  },
+  {
+    "bookId": 2,
+    "bookKey": "book_2",
+    "bookName": null,
+    "bookText": null,
+    "createdAt": "2024-02-11T16:19:10Z",
+    "creatorId": 3,
+    "hasRead": false,
+    "images": [
+      {
+        "imageId": 3,
+        "imageKey": "zzz",
+        "imageName": "01",
+        "imageType": "image",
+        "imageUrl": "zzz.com"
+      }
+    ],
+    "mediaType": "twitter",
+    "updatedAt": "2024-02-11T16:19:10Z"
+  },
+  {
+    "bookId": 3,
+    "bookKey": "book_3",
+    "bookName": null,
+    "bookText": null,
+    "createdAt": "2024-02-11T16:19:10Z",
+    "creatorId": 2,
+    "hasRead": false,
+    "images": [
+      {
+        "imageId": 4,
+        "imageKey": "aaa",
+        "imageName": "01",
+        "imageType": "image",
+        "imageUrl": "aaa.com"
+      },
+      {
+        "imageId": 5,
+        "imageKey": "aaa",
+        "imageName": "02",
+        "imageType": "image",
+        "imageUrl": "aaa.com"
+      }
+    ],
+    "mediaType": "comic",
+    "updatedAt": "2024-02-11T16:19:10Z"
+  }
+]

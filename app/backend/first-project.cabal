@@ -1,0 +1,189 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.35.2.
+--
+-- see: https://github.com/sol/hpack
+
+name:           first-project
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/first-project#readme>
+homepage:       https://github.com/githubuser/first-project#readme
+bug-reports:    https://github.com/githubuser/first-project/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2023 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    CHANGELOG.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/first-project
+
+library
+  exposed-modules:
+      Application.Global.GlobalState
+      Application.Global.WSInfo
+      Application.Global.WSWorker
+      Application.UseCase.Twitter.MyLikedTweetsUploadUseCase
+      Domain.DomainService.SaveImagesDomainService
+      Domain.Model.Book.BookEntity
+      Domain.Model.Image.ImageEntity
+      Domain.Model.Table.CompositeRow
+      Domain.Model.Table.Table
+      Domain.Model.Table.TableRepository
+      Env
+      Infrastructure.Connection
+      Infrastructure.ConnectionTwitterAPI
+      Infrastructure.Repository.Book.BookGateway
+      Infrastructure.Repository.Book.BookRecord
+      Infrastructure.Repository.Category.CategoryGateway
+      Infrastructure.Repository.Category.CategoryRecord
+      Infrastructure.Repository.Creator.CreatorGateway
+      Infrastructure.Repository.Creator.CreatorRecord
+      Infrastructure.Repository.Image.ImageRecord
+      Infrastructure.Repository.MinIO.S3Gateway
+      Infrastructure.Repository.MinIO.S3Repository
+      Infrastructure.Repository.Tag.TagGateway
+      Infrastructure.Repository.Tag.TagRecord
+      Infrastructure.Repository.Twitter.TwitterLikeGateway
+      Infrastructure.Repository.Twitter.TwitterLikeRecord
+      Infrastructure.Repository.Twitter.TwitterRepository
+      Infrastructure.Repository.Twitter.TwitterUserGateway
+      Infrastructure.Repository.Twitter.TwitterUserRecord
+      Presentation.APIRes
+      Presentation.Cors
+      Presentation.Router.BaseRouter
+      Presentation.Router.CreatorRouter
+      Presentation.Router.CustomHandler
+      Presentation.Router.WebSocketRouter
+      Util
+  other-modules:
+      Paths_first_project
+  hs-source-dirs:
+      src
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
+  build-depends:
+      aeson
+    , async
+    , base >=4.7 && <5
+    , base64-bytestring
+    , bytestring
+    , conduit
+    , containers
+    , dotenv
+    , filepath
+    , http-client
+    , http-conduit
+    , http-types
+    , minio-hs
+    , mtl
+    , mysql-simple
+    , optparse-applicative
+    , resourcet
+    , servant
+    , servant-server
+    , servant-websockets
+    , stm
+    , text
+    , time
+    , transformers
+    , unicode-show
+    , unliftio
+    , utf8-string
+    , wai
+    , wai-cors
+    , wai-websockets
+    , warp
+    , websockets
+  default-language: Haskell2010
+
+executable first-project-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_first_project
+  hs-source-dirs:
+      app
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      aeson
+    , async
+    , base >=4.7 && <5
+    , base64-bytestring
+    , bytestring
+    , conduit
+    , containers
+    , dotenv
+    , filepath
+    , first-project
+    , http-client
+    , http-conduit
+    , http-types
+    , minio-hs
+    , mtl
+    , mysql-simple
+    , optparse-applicative
+    , resourcet
+    , servant
+    , servant-server
+    , servant-websockets
+    , stm
+    , text
+    , time
+    , transformers
+    , unicode-show
+    , unliftio
+    , utf8-string
+    , wai
+    , wai-cors
+    , wai-websockets
+    , warp
+    , websockets
+  default-language: Haskell2010
+
+test-suite first-project-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_first_project
+  hs-source-dirs:
+      test
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      aeson
+    , async
+    , base >=4.7 && <5
+    , base64-bytestring
+    , bytestring
+    , conduit
+    , containers
+    , dotenv
+    , filepath
+    , first-project
+    , http-client
+    , http-conduit
+    , http-types
+    , minio-hs
+    , mtl
+    , mysql-simple
+    , optparse-applicative
+    , resourcet
+    , servant
+    , servant-server
+    , servant-websockets
+    , stm
+    , text
+    , time
+    , transformers
+    , unicode-show
+    , unliftio
+    , utf8-string
+    , wai
+    , wai-cors
+    , wai-websockets
+    , warp
+    , websockets
+  default-language: Haskell2010

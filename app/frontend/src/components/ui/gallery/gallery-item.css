@@ -1,0 +1,36 @@
+.item {
+  /* 見た目に関するcss */
+  margin: 5px;
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+
+  /*アニメーションに関するcss*/
+  display: none;
+  line-height: 100px;
+  will-change: transform;
+}
+.card {
+  /* 見た目に関するcss */
+  cursor: grab;
+  border-radius: 5px;
+  overflow: hidden; /* はみ出た要素は非表示 */
+
+  /*アニメーションに関するcss*/
+  position: absolute; /* 本来の位置ではなくitem-contentの中央からease-outできるよう設定*/
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 親要素に対して、画像をどのようにはめ込むかを指定 */
+}

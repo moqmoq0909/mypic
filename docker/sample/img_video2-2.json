@@ -1,0 +1,92 @@
+{
+  "data": [
+    {
+      "attachments": { "media_keys": ["3_1739290995634720768"] },
+      "edit_history_tweet_ids": ["1739291001678655806"],
+      "id": "1739291001678655806",
+      "text": "ArchGargoyle WIP - Concept Art, Design #b3d #blender3d #3dart #zbrush #zbrushsculpt #creature #creatureart #creaturedesign #digitalsculpting #digitalart #sculpting #3d #3dsculpting #3dmodel #3dart #monster #monsterdesign #conceptart #characterdesign #characterart https://t.co/sIq4PP8Asy"
+    },
+    {
+      "attachments": { "media_keys": ["7_1739339559102529536"] },
+      "edit_history_tweet_ids": ["1739427930294628608"],
+      "id": "1739427930294628608",
+      "text": "【手書きの落書きから3Dモデル生成】\n\n@CSM_ai で手書きのサンタクロースを3DCGの静止画へ、そしてさらにそれを3Dモデルへ変換。\n\nイメージ通りのものが具現化できている。自由度が高い！3Dプリンタがあれば、手書きからリアルな立体物も可能になりそうです！\n\n#3D #生成AI\nhttps://t.co/0O67VjIF2x"
+    },
+    {
+      "attachments": { "media_keys": ["3_1738345033877864448"] },
+      "edit_history_tweet_ids": ["1738431740912542121"],
+      "id": "1738431740912542121",
+      "text": "ゲーム感覚でAWSの学習ができる「AWS Cloud Quest」が面白いです。AWSを駆使してゲーム内の課題を解決していく構成になっており、遊び感覚でAWSを学習できます\n\nこちらです↓\nhttps://t.co/rgYqM9AK36 https://t.co/N12Ma3564R"
+    },
+    {
+      "attachments": { "media_keys": ["16_1737960378309742594"] },
+      "edit_history_tweet_ids": ["1737960608136630332"],
+      "id": "1737960608136630332",
+      "text": "【1秒間に100枚生成】\n#StreamDiffusion は、100fpsという超高速で画像生成できる生成AI。\n\nその論文とコードが公開！CGモデルからのリアルタイム生成なども可能に。速いという事が、様々な事象を解決する一つの例だと思う。\n\n続く&gt;&gt;\n\n#生成AI #画像生成AI https://t.co/MEUtrwZkdT"
+    },
+    {
+      "edit_history_tweet_ids": ["1737835563464687830"],
+      "id": "1737835563464687830",
+      "text": "大変お待たせしました！本日arXivにて公開された私達の論文「StreamDiffusion」について\nGitHubリポジトリの方も公開しました！100fps以上出すことも可能です！\n詳しくは論文、リポジトリのREADMEをご確認ください！\n\n#StreamDiffusion \n論文:https://t.co/4zQKFyPKgj\nGitHub:https://t.co/U1ufvRR9cq https://t.co/5hO1UXT4Ya"
+    }
+  ],
+  "includes": {
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/GCMz8gPX0AA7wEQ.jpg",
+        "media_key": "3_1739290995634720768",
+        "type": "photo"
+      },
+      {
+        "public_metrics": { "view_count": 14628 },
+        "media_key": "7_1739339559102529536",
+        "preview_image_url": "https://pbs.twimg.com/ext_tw_video_thumb/1739339559102529536/pu/img/LLHlu0PD2lVAOVUJ.jpg",
+        "variants": [
+          {
+            "bit_rate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/ext_tw_video/1739339559102529536/pu/vid/avc1/480x270/naO0QvJ5fWQ-qfZH.mp4?tag=12"
+          },
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/ext_tw_video/1739339559102529536/pu/vid/avc1/640x360/Im1UdxnHemBdusJV.mp4?tag=12"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/ext_tw_video/1739339559102529536/pu/vid/avc1/1280x720/rVNcHNvSNqHWc9Id.mp4?tag=12"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/ext_tw_video/1739339559102529536/pu/pl/lAgXRbtIcZ68IJpX.m3u8?tag=12&container=fmp4"
+          }
+        ],
+        "duration_ms": 8000,
+        "type": "video"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/GB_XmSFawAA9MaN.png",
+        "media_key": "3_1738345033877864448",
+        "type": "photo"
+      },
+      {
+        "media_key": "16_1737960378309742594",
+        "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/GB55wYbbEAIhcFe.jpg",
+        "variants": [
+          {
+            "bit_rate": 0,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/tweet_video/GB55wYbbEAIhcFe.mp4"
+          }
+        ],
+        "type": "animated_gif"
+      }
+    ]
+  },
+  "meta": {
+    "result_count": 5,
+    "next_token": "7140dibdnow9c7btw483gv4awki2ifch1v6ssaaeefvi0",
+    "previous_token": "77qpymm88g5h9vqkluxexcpvrp7aybyotc7fk3is6c4e0"
+  }
+}

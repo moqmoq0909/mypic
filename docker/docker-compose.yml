@@ -1,0 +1,29 @@
+version: '3'
+services:
+  db:
+    build: ./mysql
+    container_name: rdb-mysql
+    volumes:
+      # 永続化するときにマウントするdir
+    - ./mysql/data:/var/lib/mysql
+    environment:
+      # ルートパスワード
+      - MYSQL_ROOT_PASSWORD=kenken
+    ports:
+      - "3306:3306"
+
+  storage:
+    image: quay.io/minio/minio:latest
+    container_name: s3-minio
+    environment:
+      MINIO_ROOT_USER: admin123
+      MINIO_ROOT_PASSWORD: admin123
+      # MINIO_ACCESS_KEY,MINIO_SECRET_KEYは非推奨、代わりにMINIO_ROOT_USER,MINIO_ROOT_PASSWORDを使う
+      # MINIO_ACCESS_KEY: admin123
+      # MINIO_SECRET_KEY: admin123
+    command: server --console-address ":9090" /data
+    volumes:
+      - ./minio/data:/data
+    ports:
+      - 9000:9000
+      - 9090:9090

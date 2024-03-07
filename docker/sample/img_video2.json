@@ -1,0 +1,100 @@
+{
+  "data": [
+    {
+      "edit_history_tweet_ids": ["1740612760189448484"],
+      "attachments": { "media_keys": ["7_1630204571451629569"] },
+      "text": "三脚の再発明！\n使うシーンが変われば、仕組みも変わる。\n\n https://t.co/aPo2G5lyYP",
+      "id": "1740612760189448484"
+    },
+    {
+      "edit_history_tweet_ids": ["1740338958100529505"],
+      "attachments": { "media_keys": ["3_1740338952517894144"] },
+      "text": "男性↔︎女性を描き分けるコツ。\nバストアップなら【僧帽筋】のボリュームに注目するのが大切ですね。 https://t.co/CdXfKAvcqt",
+      "id": "1740338958100529505"
+    },
+    {
+      "edit_history_tweet_ids": ["1739833494929633475"],
+      "text": "「サブスク解約したいけど、手続き分からん」に救世主　「解約.com」が話題　開発経緯を聞いた\nhttps://t.co/p8q97Zr1DB",
+      "id": "1739833494929633475"
+    },
+    {
+      "edit_history_tweet_ids": ["1739590780585701450"],
+      "attachments": {
+        "media_keys": [
+          "3_1739590767100960768",
+          "3_1739590767109410816",
+          "3_1739590767122022400",
+          "3_1739590767092658177"
+        ]
+      },
+      "text": "少子高齢化と人口減少で財政が3年連続赤字。まさに火の車だった流山市の市長になる\n　↓\n税収UPのため人口を増やすことに専念\n　↓\n全国自治体で初の「マーケティング課」を設置\n　↓\n子育て世代にターゲットを絞る\n　↓\n職員から猛反発 ”全ての年代に公平にサービスを届けるのが行政の役目”\n　↓\n　↓… https://t.co/g8p7eVAafD https://t.co/cErLETDU5B",
+      "id": "1739590780585701450"
+    },
+    {
+      "edit_history_tweet_ids": ["1739577021108519126"],
+      "text": "こういうの見ると、これまでが工学的アプローチ全盛だったとすると、これからは生物学的アプローチ全盛の時代なんだなと思う。… https://t.co/k3qyK1ur7v https://t.co/FmGFYkQ31P",
+      "id": "1739577021108519126"
+    }
+  ],
+  "includes": {
+    "media": [
+      {
+        "media_key": "7_1630204571451629569",
+        "variants": [
+          {
+            "bit_rate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/ext_tw_video/1630204571451629569/pu/vid/480x270/Jr9194PbJpH96npW.mp4?tag=12"
+          },
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/ext_tw_video/1630204571451629569/pu/vid/640x360/XqhJzOmMZjw8bQI6.mp4?tag=12"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/ext_tw_video/1630204571451629569/pu/vid/1280x720/5prFRCgi27mKOqBT.mp4?tag=12"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/ext_tw_video/1630204571451629569/pu/pl/nDzKxPhywJeofnpr.m3u8?tag=12&container=fmp4"
+          }
+        ],
+        "type": "video",
+        "duration_ms": 91540,
+        "public_metrics": { "view_count": 18784 },
+        "preview_image_url": "https://pbs.twimg.com/ext_tw_video_thumb/1630204571451629569/pu/img/GW6ZbkRjVUjdORjV.jpg"
+      },
+      {
+        "media_key": "3_1740338952517894144",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GCbtDn2awAAzaNl.jpg"
+      },
+      {
+        "media_key": "3_1739590767100960768",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GCRElf-aIAAoA8u.jpg"
+      },
+      {
+        "media_key": "3_1739590767109410816",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GCRElgAbEAA8OIS.jpg"
+      },
+      {
+        "media_key": "3_1739590767122022400",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GCRElgDbgAACh4E.jpg"
+      },
+      {
+        "media_key": "3_1739590767092658177",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GCRElf8bcAE8fvN.jpg"
+      }
+    ]
+  },
+  "meta": {
+    "result_count": 5,
+    "next_token": "7140dibdnow9c7btw483gx7j0p9wdms8brzdmf4z6wbw2"
+  }
+}
